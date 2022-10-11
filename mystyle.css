@@ -1,0 +1,78 @@
+body{
+    font-family: 'Spectral', serif; 
+    text-align: center;
+    
+}
+.card{
+    background: linear-gradient(white,antiquewhite,white);
+    border-radius: 10px;
+    border: 1px solid rgba(46, 37, 37, 0.185);
+    padding-bottom: 30px;
+}
+.tour_city{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/lagos.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    text-shadow: 0 0 1px black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tour_city:hover .main_text{
+    display: none;
+}
+.tour_city:hover{
+    background-image:url(images/welcome.webp);
+}
+
+
+#title{
+    background-color: rgba(61, 40, 14, 0.438);
+    padding: 0 auto;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 200px;
+    justify-items: center;
+}
+
+#title_text{
+    background-color: rgb(61, 40, 14, 0.438);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 0 15px 0;
+}
+
+.tour_centers{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-right:  20px;
+}
+#center1, #center2, #center3{
+    padding: 0 20px;
+}
+.img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+#guide_pic{
+    height: 200px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#tour_guide{
+    margin: 50px;
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(135, 207, 235, 0.877);
+    padding: 10px 10px;
+    border-radius: 5px;
+}
